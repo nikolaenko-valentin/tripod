@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CadTests", "CadTests\CadTests.csproj", "{4D78F211-5414-41EE-ADAE-5566BAD03FBC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CadManagerUi", "CadManagerUi\CadManagerUi.csproj", "{FAF93175-E8F1-49F1-9DF4-F19953D65FA7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{4D78F211-5414-41EE-ADAE-5566BAD03FBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4D78F211-5414-41EE-ADAE-5566BAD03FBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4D78F211-5414-41EE-ADAE-5566BAD03FBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAF93175-E8F1-49F1-9DF4-F19953D65FA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAF93175-E8F1-49F1-9DF4-F19953D65FA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAF93175-E8F1-49F1-9DF4-F19953D65FA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAF93175-E8F1-49F1-9DF4-F19953D65FA7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

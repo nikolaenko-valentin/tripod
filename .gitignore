@@ -3,3 +3,5 @@ src/.vs
 src/CadTests/bin
 src/CadTests/obj
 src/CadTests/nano_cad_libs/NC_SDK_RU_26.0.7228.4926.8429
+src/CadManagerUi/bin
+src/CadManagerUi/obj
