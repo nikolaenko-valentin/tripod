@@ -1,0 +1,62 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="hostdbmgd">
+      <HintPath>NC_SDK_RU_26.0.7228.4926.8429\include-x64\hostdbmgd.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="hostmgd">
+      <HintPath>NC_SDK_RU_26.0.7228.4926.8429\include-x64\hostmgd.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="HostMgdAvalonia">
+      <HintPath>NC_SDK_RU_26.0.7228.4926.8429\include-x64\HostMgdAvalonia.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="hostPointCloudsMgd">
+      <HintPath>NC_SDK_RU_26.0.7228.4926.8429\include-x64\hostPointCloudsMgd.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="imapimgd">
+      <HintPath>NC_SDK_RU_26.0.7228.4926.8429\include-x64\imapimgd.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="MapiBaseTypes">
+      <HintPath>NC_SDK_RU_26.0.7228.4926.8429\include-x64\mapibasetypes.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="MapiBaseTypes2">
+      <HintPath>NC_SDK_RU_26.0.7228.4926.8429\include-x64\mapibasetypes2.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="mapiforms">
+      <HintPath>NC_SDK_RU_26.0.7228.4926.8429\include-x64\mapiforms.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="mapimgd">
+      <HintPath>NC_SDK_RU_26.0.7228.4926.8429\include-x64\mapimgd.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="mapinet">
+      <HintPath>NC_SDK_RU_26.0.7228.4926.8429\include-x64\mapinet.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="mapiwpf">
+      <HintPath>NC_SDK_RU_26.0.7228.4926.8429\include-x64\mapiwpf.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="McUnits">
+      <HintPath>NC_SDK_RU_26.0.7228.4926.8429\include-x64\McUnits.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="NrxGateMgd">
+      <HintPath>NC_SDK_RU_26.0.7228.4926.8429\include-x64\nrxgatemgd.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+  </ItemGroup>
+</Project>
