@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CadTests", "CadTests\CadTes
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CadManagerUi", "CadManagerUi\CadManagerUi.csproj", "{FAF93175-E8F1-49F1-9DF4-F19953D65FA7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyNanoCADPlugin", "MyNanoCADPlugin\MyNanoCADPlugin.csproj", "{D5023815-B0B5-47E3-9729-7B9A7BFA3ADC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,8 +23,15 @@ Global
 		{FAF93175-E8F1-49F1-9DF4-F19953D65FA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FAF93175-E8F1-49F1-9DF4-F19953D65FA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FAF93175-E8F1-49F1-9DF4-F19953D65FA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5023815-B0B5-47E3-9729-7B9A7BFA3ADC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5023815-B0B5-47E3-9729-7B9A7BFA3ADC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5023815-B0B5-47E3-9729-7B9A7BFA3ADC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5023815-B0B5-47E3-9729-7B9A7BFA3ADC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6A1D9E41-1C41-45CD-BD5F-9004E4C4AECE}
 	EndGlobalSection
 EndGlobal
