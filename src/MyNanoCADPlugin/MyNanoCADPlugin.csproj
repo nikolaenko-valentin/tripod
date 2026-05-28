@@ -5,9 +5,8 @@
 		<UseWindowsForms>true</UseWindowsForms>
 		<Nullable>enable</Nullable>
 		<ImplicitUsings>enable</ImplicitUsings>
-		<!-- Output directly to NanoCAD plugins folder -->
-		<OutputPath>C:\Program Files\Nanosoft\NanoCAD x64\Plugins\MyPlugin\</OutputPath>
-		<AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+		<Platforms>x64</Platforms>
+		<PlatformTarget>x64</PlatformTarget>
 	</PropertyGroup>
 	<ItemGroup>
 		<Reference Include="hostdbmgd">
@@ -62,8 +61,5 @@
 			<HintPath>NC_SDK_RU\include-x64\nrxgatemgd.dll</HintPath>
 			<Private>false</Private>
 		</Reference>
-	</ItemGroup>
-	<ItemGroup>
-	  <Folder Include="nano_cad_libs\NC_SDK_RU\" />
 	</ItemGroup>
 </Project>

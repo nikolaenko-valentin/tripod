@@ -1,6 +1,9 @@
 ﻿// Plugin.cs
 using Teigha.Runtime;
-using Bricscad.ApplicationServices;
+using Teigha.DatabaseServices;
+using Teigha.Geometry;
+using HostMgd.ApplicationServices;
+using Application = HostMgd.ApplicationServices.Application;
 
 // Register plugin entry point
 [assembly: ExtensionApplication(typeof(MyNanoCADPlugin.Plugin))]
@@ -25,7 +28,7 @@ namespace MyNanoCADPlugin
                     "Type MYPLUGIN to open.\n"
                 );
             }
-            catch (Exception ex)
+            catch (System.Exception ex)
             {
                 System.Diagnostics.Debug.WriteLine(
                     $"Plugin init error: {ex.Message}"

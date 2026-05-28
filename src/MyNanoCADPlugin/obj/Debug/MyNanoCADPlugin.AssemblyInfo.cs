@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MyNanoCADPlugin")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+47c5f086265cc3276025875e6ccecc780b02885d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1cf8c1abb954b4768962ebcd21076ae8493dc8f5")]
 [assembly: System.Reflection.AssemblyProductAttribute("MyNanoCADPlugin")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MyNanoCADPlugin")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
